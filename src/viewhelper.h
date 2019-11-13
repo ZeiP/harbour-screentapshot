@@ -23,7 +23,6 @@ public:
     void setDefaultRegion();
 
     Q_INVOKABLE void closeOverlay();
-    Q_INVOKABLE void openStore();
 
 public slots:
     void checkActiveSettings();
@@ -70,8 +69,6 @@ private:
     MGConfItem *orientationLockConf;
 
 private slots:
-    void onPackageStatusChanged(const QString &package, int status);
-
     void onSettingsDestroyed();
     void onSettingsClosing(QQuickCloseEvent*);
 

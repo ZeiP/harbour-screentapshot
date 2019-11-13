@@ -193,14 +193,6 @@ Page {
                 }
 
                 Label {
-                    text: qsTr("by coderus in 0x7DF")
-                    font.pixelSize: Theme.fontSizeMedium
-                    width: parent.width
-                    horizontalAlignment: Text.AlignHCenter
-                    wrapMode: Text.WordWrap
-                }
-
-                Label {
                     text: qsTr("Simple screenshot application with overlay button")
                     font.pixelSize: Theme.fontSizeMedium
                     width: parent.width
@@ -209,7 +201,15 @@ Page {
                 }
 
                 Label {
-                    text: qsTr("We accept donations via")
+                    text: qsTr("Original code by CODeRUS.\nTranslatability by ZeiP.\nThanks to tortoisedoc for MOUSE_REGION trick.")
+                    font.pixelSize: Theme.fontSizeMedium
+                    width: parent.width
+                    horizontalAlignment: Text.AlignHCenter
+                    wrapMode: Text.WordWrap
+                }
+
+                Label {
+                    text: qsTr("CODeRUS accepts donations via")
                     font.pixelSize: Theme.fontSizeMedium
                     width: parent.width
                     horizontalAlignment: Text.AlignHCenter
@@ -223,22 +223,6 @@ Page {
                     onClicked: {
                         Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ovi.coderus%40gmail%2ecom&lg=en&lc=US&item_name=Donation%20for%20coderus%20battery-overlay%20EUR&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest")
                     }
-                }
-
-                Label {
-                    text: qsTr("Me and my beloved would be grateful for every cent.\nYour donations makes application better and i can spend more time for development.")
-                    font.pixelSize: Theme.fontSizeMedium
-                    width: parent.width
-                    horizontalAlignment: Text.AlignHCenter
-                    wrapMode: Text.WordWrap
-                }
-
-                Label {
-                    text: qsTr("Thanks to tortoisedoc for MOUSE_REGION trick.")
-                    font.pixelSize: Theme.fontSizeMedium
-                    width: parent.width
-                    horizontalAlignment: Text.AlignHCenter
-                    wrapMode: Text.WordWrap
                 }
             }
         }

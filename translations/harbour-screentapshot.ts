@@ -19,34 +19,25 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/AboutPage.qml" line="196"/>
-        <source>by coderus in 0x7DF</source>
+        <location filename="../qml/AboutPage.qml" line="212"/>
+        <source>CODeRUS accepts donations via</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/AboutPage.qml" line="204"/>
+        <location filename="../qml/AboutPage.qml" line="196"/>
         <source>Simple screenshot application with overlay button</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/AboutPage.qml" line="212"/>
-        <source>We accept donations via</source>
+        <location filename="../qml/AboutPage.qml" line="204"/>
+        <source>Original code by CODeRUS.
+Translatability by ZeiP.
+Thanks to tortoisedoc for MOUSE_REGION trick.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/AboutPage.qml" line="220"/>
         <source>PayPal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/AboutPage.qml" line="229"/>
-        <source>Me and my beloved would be grateful for every cent.
-Your donations makes application better and i can spend more time for development.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/AboutPage.qml" line="237"/>
-        <source>Thanks to tortoisedoc for MOUSE_REGION trick.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -111,29 +102,6 @@ Settings</source>
     <message>
         <location filename="../qml/MainPage.qml" line="63"/>
         <source>Save in Screenshots subfolder</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>overlay</name>
-    <message>
-        <location filename="../qml/overlay.qml" line="285"/>
-        <source>Application removal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/overlay.qml" line="379"/>
-        <source>I&apos;m sorry You unsatisfied with my application. Please tell me why, and I will try to do my best to improve it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/overlay.qml" line="384"/>
-        <source>Leave comment in Jolla Store</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/overlay.qml" line="394"/>
-        <source>No, thanks</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

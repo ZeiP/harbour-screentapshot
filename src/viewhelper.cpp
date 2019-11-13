@@ -40,12 +40,6 @@ void ViewHelper::closeOverlay()
     }
 }
 
-void ViewHelper::openStore()
-{
-    QDBusInterface iface("com.jolla.jollastore", "/StoreClient", "com.jolla.jollastore");
-    iface.call(QDBus::NoBlock, "showApp", "harbour-screentapshot");
-}
-
 void ViewHelper::setDefaultRegion()
 {
     setMouseRegion(QRegion(lastXPos(),
@@ -210,13 +204,6 @@ void ViewHelper::setUseSubfolder(bool value)
 QString ViewHelper::orientationLock() const
 {
     return orientationLockConf->value(QString("dynamic")).toString();
-}
-
-void ViewHelper::onPackageStatusChanged(const QString &package, int status)
-{
-    if (package == "harbour-screentapshot" && status != 1) {
-        Q_EMIT applicationRemoval();
-    }
 }
 
 void ViewHelper::onSettingsDestroyed()
